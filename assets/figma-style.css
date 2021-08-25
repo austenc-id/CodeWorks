@@ -1,0 +1,1776 @@
+/* Rectangle 2 */
+
+position: absolute;
+width: 746px;
+height: 51px;
+
+/* jd-green */
+background: #057B03;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 732px;
+height: 51px;
+
+background: #EBFF00;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 980px;
+height: 51px;
+
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+
+
+/* basic / radio */
+
+position: relative;
+width: 56px;
+height: 51px;
+
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+
+
+/* coolicon */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* jd-green */
+background: #057B03;
+
+
+/* John Deere */
+
+position: absolute;
+width: 201px;
+height: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #057B03;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 46px;
+height: 32px;
+
+background: url(john-deere-icon.jpg);
+
+
+/* Finance */
+
+position: absolute;
+width: 69px;
+height: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Equipment */
+
+position: absolute;
+width: 92px;
+height: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Parts & Service */
+
+position: absolute;
+width: 133px;
+height: 37px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Find a Dealer */
+
+position: absolute;
+width: 87px;
+height: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Sign In */
+
+position: absolute;
+width: 47px;
+height: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* basic / location */
+
+position: relative;
+width: 25px;
+height: 24px;
+
+
+
+/* coolicon */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 12.48%;
+bottom: 12.5%;
+
+/* jd-green */
+background: #057B03;
+
+
+/* Equipment Bar */
+
+position: absolute;
+width: 1000px;
+height: 123px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 1000px;
+height: 123px;
+
+background: #FFFFFF;
+
+
+/* Agriculture */
+
+position: absolute;
+width: 71px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lawn & Garden */
+
+position: absolute;
+width: 106px;
+height: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Construction */
+
+position: absolute;
+width: 82px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Landscaping & Grounds Care */
+
+position: absolute;
+width: 107px;
+height: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Golf & Sports Turf */
+
+position: absolute;
+width: 92px;
+height: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Forestry */
+
+position: absolute;
+width: 92px;
+height: 31px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Engines & Drivetrain */
+
+position: absolute;
+width: 92px;
+height: 31px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Government & Military Sales */
+
+position: absolute;
+width: 92px;
+height: 31px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rental Sales */
+
+position: absolute;
+width: 79px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 81px;
+height: 64px;
+
+background: url(agriculture.png);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 70px;
+height: 64px;
+
+background: url(lawn-and-garden.png);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 103px;
+height: 64px;
+
+background: url(construction.png);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 70px;
+height: 64px;
+
+background: url(landscaping-and-grounds-care.png);
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 70px;
+height: 64px;
+
+background: url(golf-and-sports-turf.png);
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 98px;
+height: 64px;
+
+background: url(forestry.png);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 70px;
+height: 64px;
+
+background: url(engines-and-drivetrain.png);
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 70px;
+height: 64px;
+
+background: url(military_excavator.png);
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 86px;
+height: 64px;
+
+background: url(rental-sales.png);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1000px;
+height: 221px;
+
+background: url(john-deere-title-pic-boy-playing.png);
+
+
+/* What’s the future look like to you? */
+
+position: absolute;
+width: 547px;
+height: 56px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* To us, it looks like cleaner, greener, and smarter solutions. Because when we work together we reach our goal of a better tomorrow. */
+
+position: absolute;
+width: 481px;
+height: 44px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 254px;
+height: 41px;
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+
+
+/* Discover how we help life leap forward */
+
+position: absolute;
+width: 215px;
+height: 34px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 1000px;
+height: 67px;
+
+background: #FFFFFF;
+
+
+/* Icon Group */
+
+position: absolute;
+width: 939.05px;
+height: 44px;
+
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 939px;
+height: 41px;
+
+background: #5C5C5C;
+
+
+/* Icon Group 1 */
+
+position: absolute;
+width: 167.6px;
+height: 41px;
+
+
+
+/* Product Selector */
+
+position: absolute;
+width: 113.88px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 24 */
+
+position: absolute;
+width: 56.94px;
+height: 41px;
+
+background: url(1-qt-tractor-white.png);
+
+
+/* Icon Group 6 */
+
+position: absolute;
+width: 143.97px;
+height: 35px;
+
+
+
+/* Rectangle 25 */
+
+position: absolute;
+width: 48.35px;
+height: 35px;
+
+background: url(2-qt-config-small-wt.png);
+
+
+/* Build & Price */
+
+position: absolute;
+width: 98.84px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Icon Group 5 */
+
+position: absolute;
+width: 171.9px;
+height: 43px;
+
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 49.42px;
+height: 43px;
+
+background: url(3-qt-preowned-small-wt.png);
+
+
+/* Shop Pre Owned */
+
+position: absolute;
+width: 123.55px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Icon Group 4 */
+
+position: absolute;
+width: 163.3px;
+height: 37px;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+width: 45.12px;
+height: 37px;
+
+background: url(4-qt-manuals-small-wt.png);
+
+
+/* Download Manual */
+
+position: absolute;
+width: 123.55px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Icon Group 3 */
+
+position: absolute;
+width: 113.88px;
+height: 38px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 42.97px;
+height: 38px;
+
+background: url(5-qt-cart-small-wt.png);
+
+
+/* Buy Parts */
+
+position: absolute;
+width: 74.13px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Icon Group 2 */
+
+position: absolute;
+width: 174.05px;
+height: 40px;
+
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 41.9px;
+height: 40px;
+
+background: url(6-qt-tag-small-wt.png);
+
+
+/* Offers & Discounts */
+
+position: absolute;
+width: 132.15px;
+height: 16px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Quad Tiles */
+
+position: absolute;
+width: 1000px;
+height: 576px;
+
+
+
+/* Rectangle 30 */
+
+position: absolute;
+width: 1000px;
+height: 576px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 31 */
+
+position: absolute;
+width: 446px;
+height: 253px;
+
+background: url(quad-pic-1.png);
+
+
+/* Rectangle 36 */
+
+position: absolute;
+width: 446px;
+height: 253px;
+
+background: url(quad-pic-3.png);
+
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 446px;
+height: 253px;
+
+background: url(quad-pic-4.png);
+
+
+/* Rectangle 35 */
+
+position: absolute;
+width: 446px;
+height: 253px;
+
+background: url(quad-pic-2.png);
+
+
+/* ON YOUR MARK, ALL SET, GRADE. */
+
+position: absolute;
+width: 289px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Boost accuracy and productivity with the new SmartGrade™ CTL > */
+
+position: absolute;
+width: 289px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #EBFF00;
+
+
+
+/* Learn more about the limited time offer > */
+
+position: absolute;
+width: 276px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+color: #EBFF00;
+
+
+
+/* Enjoy free preventative maintenance parts & fluids for the first 3,000 hours */
+
+position: absolute;
+width: 227px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 176px;
+height: 253px;
+
+background: rgba(140, 137, 137, 0.81);
+
+
+/* Rectangle 39 */
+
+position: absolute;
+width: 176px;
+height: 253px;
+
+background: rgba(196, 188, 188, 0.75);
+
+
+/* Do It Yourself! */
+
+position: absolute;
+width: 118px;
+height: 37px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Get 15% Off Home Maintenance Kits and MowerPlus™ Smart Connectors for Residential Riding Equipment. */
+
+position: absolute;
+width: 156px;
+height: 86px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 106px;
+height: 43px;
+
+
+
+/* Start Saving */
+
+position: absolute;
+width: 80px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EBFF00;
+
+
+
+/* Rectangle 40 */
+
+position: absolute;
+width: 106px;
+height: 39px;
+
+border: 2px solid #EBFF00;
+box-sizing: border-box;
+
+
+/* Buy Online and Get Free Delivery */
+
+position: absolute;
+width: 144px;
+height: 63px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* On select models for a limited time */
+
+position: absolute;
+width: 144px;
+height: 43px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 94px;
+height: 37px;
+
+
+
+/* Rectangle 41 */
+
+position: absolute;
+width: 94px;
+height: 37px;
+
+border: 2px solid #EBFF00;
+box-sizing: border-box;
+
+
+/* Buy Now */
+
+position: absolute;
+width: 61px;
+height: 27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #EBFF00;
+
+
+
+/* Rectangle 42 */
+
+position: absolute;
+width: 1000px;
+height: 76px;
+
+background: #FFFFFF;
+
+
+/* LIVING JOHN DEERE */
+
+position: absolute;
+width: 336px;
+height: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 1000px;
+height: 546px;
+
+
+
+/* Rectangle 43 */
+
+position: absolute;
+width: 1000px;
+height: 546px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 44 */
+
+position: absolute;
+width: 203px;
+height: 526px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 45 */
+
+position: absolute;
+width: 203px;
+height: 526px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 46 */
+
+position: absolute;
+width: 203px;
+height: 526px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 47 */
+
+position: absolute;
+width: 203px;
+height: 526px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 48 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: url(panel-1.jpg);
+
+
+/* Rectangle 49 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 53 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: url(panel-2.jpg);
+
+
+/* Rectangle 50 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 52 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: url(panel-3.jpg);
+
+
+/* Rectangle 51 */
+
+position: absolute;
+width: 154px;
+height: 182px;
+
+background: url(panel-4.jpg);
+
+
+/* REVERSING THE TREND OF BLACK FARM FAMILIES LOSING THEIR LAND */
+
+position: absolute;
+width: 179px;
+height: 80px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* River Bend Food Bank: Feeding People Today, Ending Hunger Tomorrow */
+
+position: absolute;
+width: 167px;
+height: 80px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Godwin's Brain Boost */
+
+position: absolute;
+width: 179px;
+height: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* 3rd Quarter Earnings Call */
+
+position: absolute;
+width: 179px;
+height: 60px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Working with an estimated 600 Black farmers each year to help them maintain ownership of their land, the Federation of Southern Cooperatives focuses on outreach, education and technical assistance. */
+
+position: absolute;
+width: 154px;
+height: 167px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* The John Deere Foundation has committed $1.7 million to River Bend Food bank in 2021; part of the foundation's previously announced $200 million commitment to communities over the next 10 years. */
+
+position: absolute;
+width: 154px;
+height: 167px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Godwin pumps just reached a whole new level of intelligence with the launch of the new "Smart" Series of pumps. The new dewatering pumps are the next generation of COlSOM and NClSOM pumping units that have been mainstays in the Godwin pump lineup, owned by parent company Xylem. */
+
+position: absolute;
+width: 154px;
+height: 226px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Fri., August 20th, 2021 9:00 AM CT/10:00 AM ET Please join Deere & Company’s earnings call. */
+
+position: absolute;
+width: 154px;
+height: 122px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+
+
+/* Read the story > */
+
+position: absolute;
+width: 109px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Read the article > */
+
+position: absolute;
+width: 129px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Learn more about Godwin Pump > */
+
+position: absolute;
+width: 179px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Join the Webcast > */
+
+position: absolute;
+width: 129px;
+height: 24px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 54 */
+
+position: absolute;
+width: 1000px;
+height: 193px;
+
+background: #FFFFFF;
+
+
+/* Search Parts by */
+
+position: absolute;
+width: 138px;
+height: 27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 55 */
+
+position: absolute;
+width: 939px;
+height: 52px;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+
+
+/* basic / radio */
+
+position: relative;
+width: 56px;
+height: 51px;
+
+
+
+/* coolicon */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #5C5C5C;
+
+
+/* Rectangle 56 */
+
+position: absolute;
+width: 203px;
+height: 52px;
+
+background: #057B03;
+
+
+/* Model V */
+
+position: absolute;
+width: 90px;
+height: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Search by PIN, Model, Equipment, or Catalog */
+
+position: absolute;
+width: 546px;
+height: 52px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #C4C4C4;
+
+
+
+/* Rectangle 57 */
+
+position: absolute;
+width: 25px;
+height: 25px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* Search Parts by Other Manufacturers */
+
+position: absolute;
+width: 304px;
+height: 28px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 1000px;
+height: 389px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 1000px;
+height: 382px;
+
+background: #E5E5E5;
+border: 1px solid #858585;
+box-sizing: border-box;
+
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 1000px;
+height: 382px;
+
+background: #E5E5E5;
+
+
+/* Products & Support */
+
+position: absolute;
+width: 163px;
+height: 42px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Connect with John Deere */
+
+position: absolute;
+width: 203px;
+height: 42px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* News & Publications */
+
+position: absolute;
+width: 184px;
+height: 42px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Company Information */
+
+position: absolute;
+width: 185px;
+height: 42px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Equipment Find a Dealer Buy Online Build Your Own */
+
+position: absolute;
+width: 105px;
+height: 92px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #858585;
+
+
+
+/* About Our Company Our Higher Purpose Innovation Sustainability Diversity Equity & Inclusion Careers Governance Investor Relations */
+
+position: absolute;
+width: 176px;
+height: 182px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #858585;
+
+
+
+/* Factory Tours John Deere Historic Site John Deere Pavilion John Deere Store John Deere Tractor & Engine Museum John Deere Kids John Deere Rewards */
+
+position: absolute;
+width: 176px;
+height: 171px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #858585;
+
+
+
+/* News and Announcements Newsroom The Furrow The Dirt The Landing Power Connect */
+
+position: absolute;
+width: 176px;
+height: 130px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #858585;
+
+
+
+/* Rectangle 60 */
+
+position: absolute;
+width: 939px;
+height: 153px;
+
+background: #E5E5E5;
+border: 1px solid #858585;
+box-sizing: border-box;
+
+
+/* Rectangle 61 */
+
+position: absolute;
+width: 939px;
+height: 153px;
+
+background: #E5E5E5;
+
+
+/* Rectangle 62 */
+
+position: absolute;
+width: 174px;
+height: 59px;
+
+background: #E5E5E5;
+border: 1px solid #858585;
+box-sizing: border-box;
+
+
+/* Rectangle 63 */
+
+position: absolute;
+width: 39px;
+height: 21px;
+
+background: url(usa-flag.png);
+
+
+/* United States */
+
+position: absolute;
+width: 100px;
+height: 21px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Site Map Privacy and Data Cookie Statement Terms of Use Accessibility Contact Us Copyright © 2021 Deere & Company. All Rights Reserved. */
+
+position: absolute;
+width: 472px;
+height: 71px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #858585;
+
+
+
+/* Rectangle 64 */
+
+position: absolute;
+width: 302px;
+height: 37px;
+
+background: url(social-media.png);
