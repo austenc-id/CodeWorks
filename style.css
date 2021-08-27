@@ -1,0 +1,43 @@
+body {
+	background-color: #9B5803;
+	font-family: Trebuchet MS;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+.title-bar {
+	background-color: #C28304;
+}
+
+.hook-bar {
+	background-color: #0099A2;
+}
+
+.choice-bar {
+	text-align: center;
+	background-color: #03C1CD;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+/*.img-fluid {*/
+/*	max-height: 200px;*/
+/*	max-width: 200px;*/
+/*}*/
+
+.row {
+	/*border: solid 1px #9B5803;*/
+	min-height: 5rem;
+}
+/*.col {*/
+/*	border: solid red;*/
+/*}*/
+
+/*.container-fluid {*/
+/*	border: solid red;*/
+/*}*/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jon Ken Po</title>
+		<link rel="stylesheet" href="assets/bootstrap.css">
+		<link rel="stylesheet" href="assets/style.css">
+</head>
+<!--not super amazingly mobile friendly but decent-->
+<!--find a way to link the random number to the obj id-->
+<!--start obj ids from 0-->
+<body>
+	<header class="container-fluid">
+			<row class="row  title-bar position-fixed">
+					<h1 class="col text-uppercase">Jon※Ken※Po</h1>
+			</row>
+	</header>
+	<main class="container-fluid">
+			<row class="row hook-bar">
+					<colm class="col"></colm>
+					<h2 class="col text-center">Let's settle this island style.</h2>
+					<githublink class="col">
+						<a href="https://austenc-id.github.io/resume">austenc-id</a>
+					</githublink>
+			</row>
+	</main>
+	<choices class="container-fluid"><!--drawChoices runs here-->
+			<row class="row choice-bar">
+					<colm class="col"></colm>
+					<colm class="col">
+						<row>
+							<h1 class="col">Jon</h1>
+						</row>
+						<row>
+							<h4 class="col">"Rock"</h4>
+						</row>
+						<row>
+							<img id="1" onclick="select(0)" src="assets/images/volcano.png" alt="volcano-icon" class="img-fluid">
+						</row>
+					</colm>
+					<colm class="col"></colm>
+					<colm class="col">
+						<row>
+							<h1 class="col">Ken</h1>
+						</row>
+						<row>
+							<h4 class="col">"Paper"</h4>
+						</row>
+						<row>
+							<img id="2" onclick="select(1)" src="assets/images/flower.png" alt="flower-icon" class="img-fluid">
+						</row>
+					</colm>
+					<colm class="col"></colm>
+					<colm class="col">
+						<row>
+							<h1 class="col">Po</h1>
+						</row>
+						<row>
+							<h4 class="col">"Scissors"</h4>
+						</row>
+						<row>
+							<img id="3" onclick="select(2)" src="assets/images/slippahz.png" alt="sandals-icon" class="img-fluid">
+						</row>
+					</colm>
+					<colm class="col"></colm>
+			</row>
+	</choices>
+<script src="assets/app.js"></script>
+</body>
+</html>
