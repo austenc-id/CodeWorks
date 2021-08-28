@@ -1,4 +1,20 @@
-/* checkpoint 2 boozled */
+/* checkpoint 2 runner */
+* {
+	border: solid rgba(255, 0, 0, 0.363) 1px;
+}
+
 body {
 	background-color: #4e4d4c;
+}
+
+header {
+	background-color: blue;
+}
+
+main {
+	background-color: #777574;
+}
+
+footer {
+	background-color: blueviolet;
 }

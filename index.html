@@ -1,4 +1,4 @@
-<!-- checkpoint 1 boozled -->
+<!-- checkpoint 1 runner -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,39 +10,47 @@
    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
+    <!-- <header class="container-fluid">
+        <div class="row">
+            <h1>Artic Runner</h1>
+        </div>
+    </header> -->
     <main class="container-fluid">
         <row class="row">
             <div class="col-3"></div>
             <colm class="col-4">
                 <figure>
-                    <img src="assets/images/husker.jpg" alt="husky">
-                    <figcaption>100% boozled</figcaption>
-                    <figcaption>7 awooos</figcaption>
-                    <figcaption>72 hyper</figcaption>
+                    <figcaption id="t"></figcaption>
+                    <img onclick="runner()" src="assets/images/husker.jpg" alt="husky">
+                    <figcaption id="e"></figcaption>
+                    <figcaption id="d"></figcaption>
                 </figure>
             </colm>
         </row>
-        <figure>
-            <img src="assets/images/icons/checkbox.png" alt="button">
-            <figcaption>10 awoos</figcaption>
-            <figcaption>-1% boozled</figcaption>
-        </figure>
-        <figure>
-            <img src="assets/images/icons/checkbox.png" alt="button">
-            <figcaption>10 awoos</figcaption>
-            <figcaption>-1% boozled</figcaption>
-        </figure>
-        <figure>
-            <img src="assets/images/icons/checkbox.png" alt="button">
-            <figcaption>10 awoos</figcaption>
-            <figcaption>-1% boozled</figcaption>
-        </figure>
-        <figure>
-            <img src="assets/images/icons/checkbox.png" alt="button">
-            <figcaption>10 awoos</figcaption>
-            <figcaption>-1% boozled</figcaption>
-        </figure>
+        <row class="row">
+            <figure class='col'>
+                <img onclick="purchaseUpgrade()" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption id="1"></figcaption>
+            </figure>
+            <figure class='col'>
+                <img onclick="purchaseUpgrade()" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption id="2"></figcaption>
+            </figure>
+            <figure class='col'>
+                <img onclick="purchaseUpgrade()" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption id="3"></figcaption>
+            </figure>
+            <figure class='col'>
+                <img onclick="purchaseUpgrade()" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption id="4"></figcaption>
+            </figure>
+        </row>
     </main>    
+    <footer class="container-fluid">
+        <div class="row">
+            <p>good bye</p>
+        </div>
+    </footer>
     <script src="assets/scripts/load.js"></script>
 </body>
 </html>
