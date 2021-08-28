@@ -1,71 +1,42 @@
-//TITLE checkpoint 2 runner 
-//SECTION data
-var x = 0
+//TODO restore energy over time
+//TODO upgrades 1-4
 
-const buttons = [
-    {id: 0, name: 'main'},
-    {id: 1, name: 'upgrade-1'},
-    {id: 2, name: 'upgrade-2'},
-    {id: 3, name: 'upgrade-3'},
-    {id: 4, name: 'upgrade-4'}
-]
-const ELEM_distance = document.getElementById('d')
-const ELEM_energy = document.getElementById('e')
-const ELEM_tokens = document.getElementById('t')
-const ELEM_upgrade1 = document.getElementById('u1')
-const ELEM_upgrade2 = document.getElementById('u2')
-const ELEM_upgrade3 = document.getElementById('u3')
-const ELEM_upgrade4 = document.getElementById('u4')
-
-var distance = 0
-var energy = 100
-var tokens = 0
-
-var upgrades = [
-    {id: 'u1', name: 'upgrade 1', quantity: 0, when: 'click',
-        tokens: -1, distance: 0, energy: 0}
-]
-
-
-//SECTION on-load functions
-drawClicker()
-
-//SECTION draw functions
-function drawClicker(){
-    ELEM_distance.innerText = 'distance: ' + `${distance}` 
-    ELEM_energy.innerText = 'energy: ' + `${energy}` 
-    ELEM_tokens.innerText = 'tokens: ' + `${tokens}` 
+// SECTION global data
+const ELEMENTS = {
+    distance: document.getElementById('d'),
+    energy: document.getElementById('e'),
+    tokens: document.getElementById('t')
 }
 
-function drawPurchase(){
-    ELEM_upgrade1.innerText = 'purchased: '// + `${upgrades}`
+var resources = [
+    { when: 'current', distance: 0, energy: 100, tokens: 0 },
+    { when: 'click', distance: 0, energy: 0 },
+    { when: 'interval', distance: 0, energy: 0 }
+]
+
+drawResources()
+
+// SECTION functions
+function drawResources(){
+    ELEMENTS.distance.innerText = 'distance: ' + `${resources[0].distance}` 
+    ELEMENTS.energy.innerText = 'energy: ' + `${resources[0].energy}` 
+    ELEMENTS.tokens.innerText = 'tokens: ' + `${resources[0].tokens}` 
 }
 
-//SECTION game functions
 function runner() {
-    //TODO if (when === 'click'){x + (quantity * x)
-    distance += 1  
-    energy -= 1 
-    tokens += .25
-    drawClicker()
+    if (resources[0].energy > 0) {
+        resources[0].distance += (1 + resources[1].distance);
+        resources[0].energy -= (25 - resources[1].energy);
+        resources[0].tokens += .25
+    };
+    //TODO if (energy === 0) {display message}
+    drawResources();
 }
 
-function purchaseUpgrade(id) {
-    locateUpgradeById(id);
-    id += 1 // id = quantity
-    console.log(tokens)
-    
-}
-
-function applyUpgradeAtInterval() {
-    //TODO if (when === 'interval'){x +(quantity * x)
-    distance += 0   
-    energy -= 0
-    drawClicker()
-}
-//SECTION data functions
-
-function locateUpgradeById(id){
-    let foundUpgrade = upgrades.find(upgrade => upgrade.id === id);
-    console.log(foundUpgrade)
+function restoreEnergyOverTime() {
+    //TODO add 1 sec interval
+    if (resources[0].energy < 100) {
+        resources[0].energy += resources[2].energy
+    }
+    drawResources()
 }
