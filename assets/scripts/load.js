@@ -12,19 +12,18 @@ const buttons = [
 const ELEM_distance = document.getElementById('d')
 const ELEM_energy = document.getElementById('e')
 const ELEM_tokens = document.getElementById('t')
-const ELEM_upgrade1 = document.getElementById('1')
-const ELEM_upgrade2 = document.getElementById('2')
-const ELEM_upgrade3 = document.getElementById('3')
-const ELEM_upgrade4 = document.getElementById('4')
+const ELEM_upgrade1 = document.getElementById('u1')
+const ELEM_upgrade2 = document.getElementById('u2')
+const ELEM_upgrade3 = document.getElementById('u3')
+const ELEM_upgrade4 = document.getElementById('u4')
 
 var distance = 0
 var energy = 100
 var tokens = 0
+
 var upgrades = [
-    {id: '1', name: 'upgrade 1', price: 1, benefit: 1.1, quantity: 0},
-    {id: '2', name: 'upgrade 2', price: 1, benefit: 1.1, quantity: 0},
-    {id: '3', name: 'upgrade 3', price: 1, benefit: 1.1, quantity: 0},
-    {id: '4', name: 'upgrade 4', price: 1, benefit: 1.1, quantity: 0}
+    {id: 'u1', name: 'upgrade 1', quantity: 0, when: 'click',
+        tokens: -1, distance: 0, energy: 0}
 ]
 
 
@@ -42,26 +41,31 @@ function drawPurchase(){
     ELEM_upgrade1.innerText = 'purchased: '// + `${upgrades}`
 }
 
-//SECTION click functions
-function runner(){
-   distance += 1
-   energy -= 1
-   tokens += .25
-   drawClicker()
+//SECTION game functions
+function runner() {
+    //TODO if (when === 'click'){x + (quantity * x)
+    distance += 1  
+    energy -= 1 
+    tokens += .25
+    drawClicker()
 }
 
-function purchaseUpgrade(){
-    tokens -= 0
-    // upgrades[i] += 1
-    drawPurchase()
-    drawClicker()
+function purchaseUpgrade(id) {
+    locateUpgradeById(id);
+    id += 1 // id = quantity
+    console.log(tokens)
     
 }
 
+function applyUpgradeAtInterval() {
+    //TODO if (when === 'interval'){x +(quantity * x)
+    distance += 0   
+    energy -= 0
+    drawClicker()
+}
 //SECTION data functions
-function locateUpgradeById(){
-    let foundUpgrade = upgrades.find(upgrade => upgrade.id === id)
+
+function locateUpgradeById(id){
+    let foundUpgrade = upgrades.find(upgrade => upgrade.id === id);
     console.log(foundUpgrade)
 }
-
-
