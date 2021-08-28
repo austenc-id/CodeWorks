@@ -1,20 +1,16 @@
 /* checkpoint 2 runner */
 * {
-	border: solid rgba(255, 0, 0, 0.363) 1px;
+  border: solid rgba(255, 0, 0, 0.363) 1px;
 }
-
 body {
-	background-color: #4e4d4c;
+  background-color: #4e4d4c;
 }
-
 header {
-	background-color: blue;
+  background-color: blue;
 }
-
 main {
-	background-color: #777574;
+  background-color: #777574;
 }
-
 footer {
-	background-color: blueviolet;
+  background-color: blueviolet;
 }
