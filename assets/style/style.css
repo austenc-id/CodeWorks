@@ -5,11 +5,11 @@
   /* border: solid rgba(255, 0, 0, 0.363) 1px; */
 }
 body {
-  background-color: #676767;
+  background-color: #0174DF;
 }
-/* header {
-  background-color: blue;
-} */
+header {
+  background-color: #0174DF;
+}
 .title-bar {
   text-align: center;
   text-transform: uppercase;
@@ -17,6 +17,9 @@ body {
 main {
   background-color: #676767;
 }
-footer {
-  background-color: blueviolet;
+.divider-row {
+  height: 25vh;
 }
+/* footer {
+  background-color: blueviolet;
+} */
