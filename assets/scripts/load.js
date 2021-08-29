@@ -22,19 +22,20 @@ const ELEMENTS = {
 }
 
 var resources = [
-    { when: 'current', distance: 0, energy: 100, tokens: 0, capacity: 1},
-    { when: 'click', tokens: 1, distance: 1, energy: 5 },
-    { when: 'interval', distance: 0, energy: 1 },
+    { when: 'current', distance: 0, energy: 100, tokens: 20, capacity: 20},
+    { when: 'click', tokens: 1, distance: 1, energy: 20 },
+    { when: 'interval', energy: 1 },
 ]
 
 var upgrades = [
     {id: 'spacer'},
-    {id: 'pouch', price: 1, resource: 'capacity', modifier: 1, inventory: 0, capacity: 5},
-    {id: 'snack', price: 1, resource: 'energy rate', modifier: 1, inventory: 0},
-    {id: 'endurance', price: 1, resource: 'energy per click', modifier: 1, inventory: 0},
-    {id: 'friend', price: 1, resource: 'tokens per click', modifier: 1, inventory: 0},
+    {id: 'pouch', price: 7, resource: 'capacity', modifier: 5, inventory: 0, capacity: 5},
+    {id: 'snack', price: 5, resource: 'energy rate', modifier: 1, inventory: 0},
+    {id: 'endurance', price: 1, resource: 'energy per click', modifier: 2, inventory: 0},
+    {id: 'friend', price: 10, resource: 'tokens per click', modifier: 1, inventory: 0},
 ]
 drawResources()
+drawPrices()
 setInterval(restoreEnergy, 2000)
 
 // SECTION functions
@@ -47,13 +48,16 @@ function drawResources() {
     ELEMENTS.bonus2.innerText = '+' + `${upgrades[2].modifier}` + ` ${upgrades[2].resource}`
     ELEMENTS.bonus3.innerText = '-' + `${upgrades[3].modifier}` + ` ${upgrades[3].resource}`
     ELEMENTS.bonus4.innerText = '+' + `${upgrades[4].modifier}` + ` ${upgrades[4].resource}`
+}
+
+function drawPrices() {
     if (upgrades[1].price === 1) {
         ELEMENTS.up1price.innerText = 'price: ' + `${upgrades[1].price}` + ' token.'
     }
-    if (upgrades[1].price < 6) {
+    if (upgrades[1].price > 1) {
         ELEMENTS.up1price.innerText = 'price: ' + `${upgrades[1].price}` + ' tokens.'
     }
-    if (upgrades[1].price > 5) {
+    if (upgrades[1].inventory >= upgrades[1].capacity) {
         ELEMENTS.up1price.hidden = true
     }
     if (upgrades[2].price === 1) {
@@ -91,7 +95,7 @@ function drawUpgrades() {
 }
 
 function runner() {
-    if (resources[0].energy > 0) {
+    if (resources[0].energy > resources[1].energy) {
         resources[0].distance += (resources[1].distance);
         resources[0].energy -= (resources[1].energy);
         if (resources[0].tokens < (resources[0].capacity)) {
@@ -106,6 +110,9 @@ function restoreEnergy() {
     //TODO add 1 sec interval
     if (resources[0].energy < 100) {
         resources[0].energy += resources[2].energy
+        if (resources[0].energy > 100) {
+            resources[0].energy = 100
+        }
     }
     drawResources()
 }
@@ -118,8 +125,8 @@ function purchaseUpgrade(upgradeId) {
                 upgrades[1].inventory += 1;
                 resources[0].tokens -= upgrades[1].price;
                 upgrades[1].price += 1;
-                upgrades[1].modifier += 1;
                 resources[0].capacity += upgrades[1].modifier;
+                upgrades[1].modifier += 1;
             }
         }
     }
@@ -128,8 +135,8 @@ function purchaseUpgrade(upgradeId) {
             upgrades[2].inventory += 1;
             resources[0].tokens -= upgrades[2].price;
             upgrades[2].price += 1;
-            upgrades[2].modifier += 1;
             resources[2].energy += upgrades[2].modifier;
+            upgrades[2].modifier += 1;
             }
     }
     if (upgradeId === 'endurance'){
@@ -137,8 +144,8 @@ function purchaseUpgrade(upgradeId) {
             upgrades[3].inventory += 1;
             resources[0].tokens -= upgrades[3].price;
             upgrades[3].price += 1;
-            upgrades[3].modifier += 1;
             resources[1].energy -= upgrades[3].modifier;
+            upgrades[3].modifier += 1;
             }
     }
     if (upgradeId === 'friend'){
@@ -146,13 +153,14 @@ function purchaseUpgrade(upgradeId) {
             upgrades[4].inventory += 1;
             resources[0].tokens -= upgrades[4].price;
             upgrades[4].price += 1;
-            upgrades[4].modifier += 1;
             resources[1].tokens += upgrades[4].modifier;
+            upgrades[4].modifier += 1;
             }
     }
     
     drawResources()
     drawUpgrades()
+    drawPrices()
 }
 
 function locateUpgradeById(id){
