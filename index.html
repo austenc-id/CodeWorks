@@ -1,5 +1,4 @@
 <!--TODO modify format/alignment -->
-<!--TODO rename divs-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,52 +6,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boozled</title>
+    <title>Arctic Runner</title>
     <link rel="bootstrap" href="assets/style/bootstrap.css">
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
-    <!-- <header class="container-fluid">
-        <div class="row">
+    <header class="container-fluid">
+        <row class="row title-bar">
             <h1>Artic Runner</h1>
-        </div>
-    </header> -->
+        </row>
+    </header>
     <main class="container-fluid">
         <row class="row">
-            <div class="col-3"></div>
-            <colm class="col-4">
+            <div class="col-lg-3"></div>
+            <colm class="col-lg-6">
                 <figure>
-                    <figcaption id="t"></figcaption>
-                    <img onclick="runner()" src="assets/images/husker.jpg" alt="husky">
+                    <img onclick="runner()" src="assets/images/husker.jpg" alt="running-husky" class="img-fluid">
+                    <!-- <figcaption>Credit:</figcaption> -->
                     <figcaption id="e"></figcaption>
                     <figcaption id="d"></figcaption>
+                    <figcaption id="t"></figcaption>
+                    <figcaption id="c"></figcaption>
                 </figure>
             </colm>
+            <div class="col-lg-3"></div>
         </row>
         <row class="row">
             <figure class='col'>
-                <img onclick="restoreEnergy()" src="assets/images/icons/checkbox.png" alt="button">
+                <img id="pouch" onclick="purchaseUpgrade('pouch')" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption>Pouch</figcaption>
+                <figcaption id="p1"></figcaption>
                 <figcaption id="u1"></figcaption>
             </figure>
             <figure class='col'>
-                <img onclick="purchaseUpgrade(u2)" src="assets/images/icons/checkbox.png" alt="button">
+                <img id="snack" onclick="purchaseUpgrade('snack')" src="assets/images/icons/checkbox.png" alt="button">
+                <figcaption>Snack</figcaption>
+                <figcaption id="p2"></figcaption>
                 <figcaption id="u2"></figcaption>
-            </figure>
-            <figure class='col'>
-                <img onclick="purchaseUpgrade(u3)" src="assets/images/icons/checkbox.png" alt="button">
-                <figcaption id="u3"></figcaption>
-            </figure>
-            <figure class='col'>
-                <img onclick="purchaseUpgrade(u4)" src="assets/images/icons/checkbox.png" alt="button">
-                <figcaption id="u4"></figcaption>
             </figure>
         </row>
     </main>
     <footer class="container-fluid">
-        <div class="row">
-            <p>good bye</p>
-        </div>
+        <row class="row">
+
+        </row>
     </footer>
     <script src="assets/scripts/load.js"></script>
 </body>

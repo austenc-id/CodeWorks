@@ -1,15 +1,21 @@
 /* TODO add style classes */
 * {
-  border: solid rgba(255, 0, 0, 0.363) 1px;
+  color: white;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  /* border: solid rgba(255, 0, 0, 0.363) 1px; */
 }
 body {
-  background-color: #4e4d4c;
+  background-color: #676767;
 }
-header {
+/* header {
   background-color: blue;
+} */
+.title-bar {
+  text-align: center;
+  text-transform: uppercase;
 }
 main {
-  background-color: #777574;
+  background-color: #676767;
 }
 footer {
   background-color: blueviolet;
