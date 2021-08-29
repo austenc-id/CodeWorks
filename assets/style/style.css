@@ -17,8 +17,12 @@ header {
 main {
   background-color: #676767;
 }
-.divider-row {
-  height: 25vh;
+.spacer {
+  min-height: 10vh;
+}
+.upgrade-card {
+  border: solid white 1px;
+  background-color: #61380B;
 }
 /* footer {
   background-color: blueviolet;

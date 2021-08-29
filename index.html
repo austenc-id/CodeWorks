@@ -11,18 +11,20 @@
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
-<body oncontextmenu="return false;" ondragstart="return false;">
+<body>
     <header class="container-fluid">
         <row class="row title-bar">
             <h1>Artic Runner</h1>
         </row>
     </header>
-    <main class="container-fluid">
+    <main oncontextmenu="return false;" ondragstart="return false;" class="container-fluid">
+        <div class="row spacer"></div>
         <row class="row align-items-center">
             <div class="col-lg-2"></div>
             <colm class="col-lg-3">
+                <!-- <figcaption>Click Me</figcaption>
+                <img onclick="runner()" src="assets/images/husker.jpg" alt="husky" class="img-fluid"> -->
                 <figcaption class="text-center">Click Me</figcaption>
-                <!-- <img onclick="runner()" src="assets/images/husker.jpg" alt="husky" class="img-fluid"> -->
                 <img onclick="runner()" src="assets/images/running.gif" alt="husky" class="img-fluid">
             </colm>
             <colm class="col-lg-2">
@@ -32,9 +34,10 @@
                 <h3 id="c"></h3>
             </colm>
         </row>
-        <div class="row divider-row"></div>
-        <div class="row text-center">
-            <div class="col-lg-3">
+        <div class="row spacer"></div>
+        <row class="row text-center">
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
                 <!-- <img id="pouch" onclick="purchaseUpgrade('pouch')" src="assets/images/icons/checkbox.png" alt="button"> -->
                 <h4 id="pouch" onclick="purchaseUpgrade('pouch')">Pouch</h4>
                 <figcaption>increase token carrying capacity by:</figcaption>
@@ -42,8 +45,9 @@
                 <figcaption>-----</figcaption>
                 <figcaption id="p1"></figcaption>
                 <figcaption id="u1"></figcaption>
-            </div>
-            <div class="col-lg-3">
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
                 <!-- <img id="snack" onclick="purchaseUpgrade('snack')" src="assets/images/icons/checkbox.png" alt="button"> -->
                 <h4 id="snack" onclick="purchaseUpgrade('snack')">Snack</h4>
                 <figcaption>increases energy regeneration by:</figcaption>
@@ -51,8 +55,9 @@
                 <figcaption>-----</figcaption>
                 <figcaption id="p2"></figcaption>
                 <figcaption id="u2"></figcaption>
-            </div>
-            <div class="col-lg-3">
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
                 <!-- <img id="endurance" onclick="purchaseUpgrade('endurance')" src="assets/images/icons/checkbox.png" alt="button"> -->
                 <h4 id="endurance" onclick="purchaseUpgrade('endurance')">Endurance</h4>
                 <figcaption>reduces energy used per click by:</figcaption>
@@ -60,8 +65,9 @@
                 <figcaption>-----</figcaption>
                 <figcaption id="p3"></figcaption>
                 <figcaption id="u3"></figcaption>
-            </div>
-            <div class="col-lg-3">
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
                 <!-- <img id="friend" onclick="purchaseUpgrade('friend')" src="assets/images/icons/checkbox.png" alt="button"> -->
                 <h4 id="friend" onclick="purchaseUpgrade('friend')">Friend</h4>
                 <figcaption>increases tokens per click by: </figcaption>
@@ -69,12 +75,17 @@
                 <figcaption>-----</figcaption>
                 <figcaption id="p4"></figcaption>
                 <figcaption id="u4"></figcaption>
-            </div>
-        </div>
+            </colm>
+            <div class="col-lg"></div>
+        </row>
     </main>
-    <footer class="container-fluid">
+    <footer class="container-fluid text-end">
         <row class="row">
-            <p>github.com/austenc-id</p>
+            <p>links:</p>
+            <a href="https://www.atlaselectronica.info"><img src="assets/images/icons/google.png" alt="google-logo"></a>
+            <a href="https://www.linkedin.com/in/austenc-id/"><img src="assets/images/icons/LinkedIn.png"
+                    alt="linkedin-logo"></a>
+            <a href="https://github.com/austenc-id"><img src="assets/images/icons/github.png" alt="github-logo"></a>
         </row>
     </footer>
     <script src="assets/scripts/load.js"></script>
