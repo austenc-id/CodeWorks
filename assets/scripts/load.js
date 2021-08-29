@@ -91,12 +91,15 @@ function drawUpgrades() {
 }
 
 function runner() {
-    if (resources[0].energy > 0) {
+    if (resources[0].energy >= resources[1].energy) {
         resources[0].distance += (resources[1].distance);
         resources[0].energy -= (resources[1].energy);
         if (resources[0].tokens < (resources[0].capacity)) {
             resources[0].tokens += resources[1].tokens
-        }
+            if (resources[0].tokens > resources[0].capacity) {
+                resources[0].tokens = resources[0].capacity
+            };
+        };
     };
     //TODO if (energy === 0) {display message}
     drawResources();
