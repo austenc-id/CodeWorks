@@ -5,11 +5,11 @@
   /* border: solid rgba(255, 0, 0, 0.363) 1px; */
 }
 body {
-  background-color: #676767;
+  background-color: #0174DF;
 }
-/* header {
-  background-color: blue;
-} */
+header {
+  background-color: #0174DF;
+}
 .title-bar {
   text-align: center;
   text-transform: uppercase;
@@ -17,6 +17,13 @@ body {
 main {
   background-color: #676767;
 }
-footer {
-  background-color: blueviolet;
+.spacer {
+  min-height: 10vh;
 }
+.upgrade-card {
+  border: solid white 1px;
+  background-color: #61380B;
+}
+/* footer {
+  background-color: blueviolet;
+} */
