@@ -23,7 +23,7 @@ const ELEMENTS = {
 }
 
 var resources = [
-    { when: 'current', distance: 0, energy: 100, tokens: 20, capacity: 20},
+    { when: 'current', distance: 0, energy: 100, tokens: 1, capacity: 20},
     { when: 'click', tokens: 1, distance: 1, energy: 20 },
     { when: 'interval', energy: 1 },
 ]
