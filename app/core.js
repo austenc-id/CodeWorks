@@ -1,0 +1,1 @@
+import { getCreatureDetails } from "./controllers/Creatures.js";
