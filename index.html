@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets\style\css\bootstrap.css">
+  <link rel="stylesheet" href="assets\style\css\local.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <title>eAtlas Skyrim</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img src="assets/style/images/skyrim.png" alt="skyrim-logo" class="navbar-img">
+        <a class="ms-2 title-link" href="https://en.uesp.net/wiki/Skyrim:Ingredients">Atlas Electronica: Skyrim</a>
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <row class="row">
+      <colm class="col-lg-3 sidebar">
+        <ul class="list-group nav">
+          <li class="list-group-item nav-link selectable" onclick="app.materialsController.showMaterials()"><span
+              class="badge badge-primary badge-pill">4</span>Vanilla
+            Materials
+          </li>
+        </ul>
+      </colm>
+      <colm class="col-lg main-content">
+        <row class="row">
+        </row>
+        <row class="row" id="materials">
+          <!-- NOTE MaterialsController.js showMaterials()-->
+        </row>
+      </colm>
+    </row>
+  </main>
+  <footer class="container-fluid">
+    <row class="row text-end">
+      <p>austen myers</p>
+    </row>
+  </footer>
+  <script src="assets\app\core.js" type="module"></script>
+</body>
+
+</html>
