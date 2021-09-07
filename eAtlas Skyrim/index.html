@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style\css\bootstrap.css">
+  <link rel="stylesheet" href="style\css\local.css">
+  <title>eAtlas Skyrim</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img src="style/images/main/skyrim.png" alt="skyrim-logo" class="navbar-img">
+        <a class="ms-2 title-link" href="https://en.uesp.net/wiki/Skyrim:Ingredients">Atlas Electronica: Skyrim</a>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <row class="row">
+      <colm class="col-lg-2 sidebar">
+        <ul class="list-group nav">
+          <li class="list-group-item nav-link selectable">
+            <span onclick="app.showMaterials.showMaterials()">Materials</span>
+          </li>
+          <li class="list-group-item nav-link selectable">
+            <span onclick="app.showQuests.showQuests()">Quests</span>
+          </li>
+          <li class="list-group-item nav-link selectable">
+            <span onclick="app.showLists.showLists()">Lists</span>
+          </li>
+        </ul>
+      </colm>
+      <colm class="col-lg main-content">
+        <div class="row" id="content-row"></div>
+      </colm>
+    </row>
+  </main>
+  <footer class="container-fluid">
+    <row class="row text-end">
+      <p>austen myers</p>
+    </row>
+  </footer>
+  <script src="app\core.js" type="module"></script>
+</body>
+
+</html>
