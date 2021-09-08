@@ -26,6 +26,11 @@ body {
   margin: 1rem;
   border: solid white;
   }
+.task-complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
 /* colm.main-content {
   background-color: brown;
   }
@@ -48,8 +53,6 @@ body {
   color: white;
   background-color: slategrey;
   }
-.task-complete {
-  text-decoration: line-through;
-  color: grey;
+
 } */
 

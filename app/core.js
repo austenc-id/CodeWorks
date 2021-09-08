@@ -1,6 +1,7 @@
 import { NavbarController } from "./main/Controllers/NavbarController.js"
-import { loadTaskLists } from "./main/LocalStorage.js";
+import { loadLists, loadTasks } from "./main/LocalStorage.js";
 import { TaskListsController } from "./tasklists/Controllers/TaskListsController.js"
+import { loadSortedTasks } from './main/LocalStorage.js';
 
 
 class App {
@@ -8,6 +9,8 @@ class App {
 	tasklistsController = new TaskListsController();
 }
 
-loadTaskLists()
+loadLists()
+loadTasks()
+loadSortedTasks()
 
 window["app"] = new App
