@@ -1,14 +1,17 @@
 import { ProxyDash } from "../dash-state.js";
+import { Quote } from "../models/Quote.js";
 
 
 class QuoteService {
-injectQuote(quote){
-		ProxyDash.quote = quote.data.content
+injectQuote(apiQuote){
+	let quote = apiQuote
+		ProxyDash.quote = [new Quote(quote)]
+		console.log(ProxyDash.quote)
 		return ProxyDash.quote
 	}
-injectAuthor(author){
-	ProxyDash.author = author.data.author
-	return ProxyDash.author
+findTemplate(){
+	let found = ProxyDash.quote.shift()
+	return found.Template
 }
 }
 
