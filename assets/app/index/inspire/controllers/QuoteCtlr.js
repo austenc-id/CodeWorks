@@ -1,26 +1,36 @@
-import { dashAPIService } from "../services/DashboardAPIService.js";
 import { quoteService } from "../services/QuoteService.js";
+import { sandboxService } from "../services/SandboxAPIService.js";
 
-
-
-function _injectQuote(quote){
+function _injectQuote(quoteData){
+	let quote = quoteData.data.content
+	let author = quoteData.data.author
 	try {
 		quoteService.injectQuote(quote)
+		quoteService.injectAuthor(author)
 	} catch {}
 	console.log(quote)
-	_drawQuote(quote)
+	_drawQuoteWidget(quote)
+	_drawQuoteAuthor(author)
 }
 
-function _drawQuote(quote){
+function _drawQuoteWidget(quote){
 	document.getElementById('quote-widget').innerHTML = quote
 }
+function _drawQuoteAuthor(author){
+	document.getElementById('author').innerHTML = author
+}
 
-
-export async function reqQuote(){
-			try {
-			 dashAPIService.getQuote()
-			.then(quote => {
-				_injectQuote(quote)
+export function reqQuote(){
+		try {
+			 sandboxService.getQuote()
+			.then(quoteData => {
+				_injectQuote(quoteData)
 			}).catch((err) => {});
 		} catch {}
+	}
+
+
+export class QuoteCtlr {
+
+
 }

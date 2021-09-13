@@ -22,7 +22,7 @@ apps = [
     {index: 3, title: 'pokedex', selection: 'app.dex.dash.showDex()'}
     ),
   new Application (
-    {index: 4, title: 'inspire', selection: 'app.inspire.dash.drawDashboard()'}
+    {index: 4, title: 'inspire', selection: 'app.inspire.image.reqDashboard()'}
     )
     ]
 journal = [new Journal()]

@@ -1,4 +1,4 @@
-import { DashboardCore } from "./index/inspire/core.js"
+import { DashboardCtlr } from "./index/inspire/controllers/DashboardCtlrs.js"
 import { JournalCore } from "./index/journal/core.js"
 import { DexCore } from "./index/pokedex/core.js"
 import { UtilityCore } from "./index/utilities/core.js"
@@ -7,7 +7,7 @@ import { UtilityCore } from "./index/utilities/core.js"
 class App {
 	utilities = new UtilityCore
 	journal = new JournalCore
-	inspire = new DashboardCore
+	inspire = new DashboardCtlr
 	dex = new DexCore
 }
 

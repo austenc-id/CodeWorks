@@ -1,10 +1,11 @@
-import { ProxyDash } from "../state.js"
+import { ProxyDash } from "../dash-state.js"
 
 export class Dashboard {
 	constructor(apiData){
 		this.image = ProxyDash.image
 		this.weather = apiData.weather
 		this.quote = ProxyDash.quote
+		this.author = ProxyDash.author
 		this.time = apiData.time
 		this.tasklist = apiData.tasklist
 	}
@@ -15,7 +16,9 @@ export class Dashboard {
 				<container class="container-fluid" id="">
 					<row class="row" id="">
 						<colm class="col-md" id="weather-widget"></colm>
-						<colm class="col-md text-black" id="quote-widget">${this.quote}</colm>
+						<colm class="col-md text-black" id="quote-widget">
+							${this.quote}<p id="author">${this.author}</p>
+						</colm>
 						<colm class="col-md" id="time-widget"></colm>
 						<colm class="col-md" id="tasklist-widget"></colm>
 					</row>

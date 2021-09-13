@@ -1,20 +1,41 @@
-import { dashAPIService } from "../services/DashboardAPIService.js";
-import { imageService } from "../services/ImageService.js"
+import { imgService } from "../services/ImageService.js"
+import { sandboxService } from "../services/SandboxAPIService.js"
+import { reqQuote } from "./QuoteCtlr.js"
 
-export async function reqImage(){
-			try {
-		await	dashAPIService.getImage()
-		.then(image => {
-			injectImage(image)
-		}).catch((err) => {});}
-		catch {}
-		return
+function _injectURL(image){
+	try {
+	var imageUrl = imgService.injectURL(image)
+	}	catch{}
+	_createDashboard(imageUrl)
+}
+
+function _createDashboard(imageUrl){
+		try {
+		var dash = imgService.createDashboard(imageUrl)
+	} catch{}
+	_drawDashboard(dash)
+}
+
+function _drawDashboard(dash){
+try {
+var template = 	imgService.findTemplate(dash)
+} catch {}
+document.getElementById('draw-content').innerHTML = template
+reqQuote()
 }
 
 
-export function injectImage(image){
-	try {
-	var imageUrl = imageService.injectURL(image)
-	}	catch{}
-	return imageUrl
+
+export class ImageCtlr{
+	injectImageUrl(image){
+		_injectURL(image)
+	}
+	async reqDashboard(){
+		try {
+		await	sandboxService.getBackdrop()
+		.then(image => {
+			_injectURL(image)
+		}).catch((err) => {});}
+		catch {}
+		}
 }
