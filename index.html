@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>atlas electronica</title>
+	<link rel="stylesheet" href="assets\style\css\bootstrap.css">
+	<link rel="stylesheet" href="assets\style\css\local.css">
+</head>
+
+<body onload="app.utilities.nav.showNavbar()">
+	<header>
+		<nav class="navbar">
+			<h1 class="navbar-brand text-capitalize">atlas electronica</h1>
+		</nav>
+	</header>
+	<main class="container-fluid">
+		<row class="row">
+			<colm class="col-md-2 sidebar" id="draw-navbar">
+			</colm>
+			<colm class="col-md main-content" id="draw-app">
+			</colm>
+		</row>
+	</main>
+	<footer class="text-center" id="footer">
+	</footer>
+	<script src="assets/app/index.js" type="module"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
