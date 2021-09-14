@@ -42,6 +42,6 @@ body {
 .bg-image {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
   /*width: 100vw;*/
 }

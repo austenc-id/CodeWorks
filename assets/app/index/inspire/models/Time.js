@@ -16,7 +16,7 @@ export class Time {
 
 		get Clock(){
 		return /*html*/`
-			<card class="card">${this.time}</card>
+			<h1 class="text-center card">${this.time}</h1>
 		`
 	}
 }

@@ -6,7 +6,7 @@ export class Quote {
 
 	get Template (){
 		return /*html*/`
-							<card class="card">
+							<card class="card quote-card">
 								<card class="card-body">
 									<p onmouseover="app.inspire.quote.revealAuthor()">${this.quote}</p>
 									<p class="visually-hidden" id="author">${this.author}</p>

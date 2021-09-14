@@ -15,7 +15,6 @@ function _drawQuoteWidget(quote){
 		template = quoteService.findTemplate()
 	}catch{}
 	document.getElementById('quote-widget').innerHTML = template
-	reqWeather()
 }
 export function reqQuote(){
 		try {

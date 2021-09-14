@@ -1,5 +1,6 @@
 import { imgService } from "../services/ImageService.js"
 import { sandboxService } from "../services/SandboxAPIService.js"
+import { drawDashboard } from "./DashboardCtlr.js"
 import { reqQuote } from "./QuoteCtlr.js"
 
 function _injectURL(image){
@@ -13,16 +14,10 @@ function _createDashboard(imageUrl){
 		try {
 		var dash = imgService.createDashboard(imageUrl)
 	} catch{}
-	_drawDashboard(dash)
+	drawDashboard(dash)
 }
 
-function _drawDashboard(dash){
-try {
-var template = 	imgService.findTemplate(dash)
-} catch {}
-document.getElementById('draw-content').innerHTML = template
-reqQuote()
-}
+
 
 
 

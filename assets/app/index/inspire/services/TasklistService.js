@@ -1,22 +1,30 @@
 import { ProxyDash } from "../dash-state.js"
 import { Task } from "../models/Task.js"
+import { sandboxService } from "./SandboxAPIService.js"
 
 class TasklistService {
-	injectTasks(apiTasks){
-		console.log(apiTasks)
-		for(let i = 0; i <= apiTasks.data.length; i++){
-			let task = apiTasks.data.shift()
-			ProxyDash.tasks.unshift(task)
-		}
-		//FIXME get tasklist to populate 
-		console.log(ProxyDash.tasklist)
-		return ProxyDash.tasklist
+	submitTask(task){
+		//ProxyDash.tasks = [...ProxyDash.tasks, new Task(task)]
+		console.log(ProxyDash.tasks)
+		//return ProxyDash.tasks
 	}
-	findTemplate(){
-		let found = ProxyDash.tasklist.shift()
-		console.log(found.Tasklist)
-		return found.Tasklist
+	injectTasks(data){
+		ProxyDash.tasks = data.map(t => new Task(t))
+}
+	getTemplate(){
+		let template = ''
+		ProxyDash.tasks.forEach(t => template += t.TaskTemplate)
+		return template
 	}
+	completeTask(id){
+		console.log(id)
+		let found = ProxyDash.tasks.find(t => t.id === id)
+		console.log(found)
+		//found.complete = !found.complete
+		console.log(found, ProxyDash.tasks)
+		sandboxService.putComplete(id)
+	}
+
 }
 
 export const tasklistService = new TasklistService

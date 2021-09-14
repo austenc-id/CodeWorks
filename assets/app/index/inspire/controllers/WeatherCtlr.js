@@ -10,7 +10,6 @@ function _injectWeather(apiWeather){
 }
 
 function _drawWeather(weather){
-	console.log(weather)
 	let template = ''
 	try {
 		template = weatherService.findTemplate()

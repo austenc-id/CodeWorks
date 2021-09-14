@@ -6,7 +6,6 @@ class QuoteService {
 injectQuote(apiQuote){
 	let quote = apiQuote
 		ProxyDash.quote = [new Quote(quote)]
-		console.log(ProxyDash.quote)
 		return ProxyDash.quote
 	}
 findTemplate(){

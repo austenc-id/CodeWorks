@@ -1,13 +1,9 @@
 import { EventEmitter } from '../utilities/services/utilities/EventEmitter.js';
 import { isValidProp } from '../utilities/services/utilities/isValidProp.js';
 
-
-
 class DashState extends EventEmitter {
 /** @type {import('../utilities/models/Value').Value[]} */
 values = [];
-/** @type {import('./models/User').User[]} */
-user = []
 /**@type {import('./models/Dashboard.js').Dashboard[]} */
 dashboard = [];
 image = {}
@@ -17,10 +13,11 @@ quote = []
 weather = []
 /**@type {import('./models/Time.js').Time[]} */
 time = []
-/**@type {import('./models/Task.js').Task[]} */
+/** @type {import('./models/User').User[]} */
+user = []
+/** @type {import('./models/Task').Task[]} */
 tasks = []
-/**@type {import('./models/Task.js').Tasklist[]} */
-tasklist = []
+
 }
 
 export const ProxyDash = new Proxy(new DashState(), {

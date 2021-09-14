@@ -3,8 +3,8 @@ export class Weather {
 		this.humidity = api.data.main.humidity
 		this.pressure = api.data.main.pressure
 		this.tempK = api.data.main.temp
-		this.tempC = this.tempK - 273.16
-		this.tempF = 9 / 5 * this.tempC + 32 
+		this.tempC = Math.round(this.tempK - 273.16)
+		this.tempF = Math.round(9 / 5 * this.tempC + 32)
 		this.formulaSource = 'https://www.weather.gov/media/epz/wxcalc/tempConvert.pdf'
 		this.location =  api.data.name
 		this.weather = api.data.weather[0].main
@@ -20,6 +20,7 @@ export class Weather {
 		<span>${this.location}</span>
 	</card>
 	<card class='card-body'>
+		<p>${this.tempK} Kelvin</p>
 		<p class="" id="tempF">
 			temperature: ${this.tempF} deg F
 		</p>
@@ -34,7 +35,7 @@ export class Weather {
 		</p>
 	</card>
 	<card class='card-footer'>
-		<button class="button-dark" onclick="app.inspire.weather.toggleTemperature()">
+		<button class="btn-dark" onclick="app.inspire.weather.toggleTemperature()">
 			Switch to Cel/Far
 		</button>
 	</card>

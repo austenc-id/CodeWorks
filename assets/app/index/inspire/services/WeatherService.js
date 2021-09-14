@@ -5,7 +5,6 @@ class WeatherService{
 	injectWeather(apiWeather){
 		let weather = apiWeather
 		ProxyDash.weather = [new Weather(weather)]
-		console.log(ProxyDash.weather)
 		return ProxyDash.weather
 	}
 

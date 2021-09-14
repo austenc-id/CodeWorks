@@ -1,4 +1,4 @@
-import { DashboardCtlr } from "./index/inspire/controllers/DashboardCtlrs.js"
+import { DashboardCtlr } from "./index/inspire/controllers/DashboardCtlr.js"
 import { JournalCore } from "./index/journal/core.js"
 import { DexCore } from "./index/pokedex/core.js"
 import { UtilityCore } from "./index/utilities/core.js"
