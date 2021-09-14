@@ -13,10 +13,10 @@ apps = [
     {index: 0, title: 'journal', selection: 'app.journal.dash.showJournal()'}
     ),
   new Application(
-    {index: 1, title: 'site clone', selection: ''}
+    {index: 1, title: 'thoughts of dog', selection: 'app.thoughts.drawPage()'}
     ),
   new Application(
-    {index: 2, title: 'arctic runner', selection: ''}
+    {index: 2, title: 'arctic runner', selection: 'app.arctic.drawPage()'}
     ),
   new Application(
     {index: 3, title: 'pokedex', selection: 'app.dex.dash.showDex()'}
