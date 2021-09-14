@@ -44,7 +44,7 @@ export class TasklistCtlr{
 	}
 	completeTask(id){
 		document.getElementById(id).classList.toggle('task-complete')
-		tasklistService.completeTask(id)
+		sandboxService.putComplete(id)
 	}
 	deleteTask(id){
 		var result = confirm("You sure?")

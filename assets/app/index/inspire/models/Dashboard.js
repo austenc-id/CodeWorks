@@ -25,7 +25,9 @@ export class Dashboard {
 		<colm class="col-md-4 weather-widget" id="weather-widget"></colm>
 		<colm class="col-md-4 visually-hidden" id="tasklist">
 			<card class='card'>
-				<card class='card-header'>My Tasks:</card>
+				<card class='card-header'>My Tasks:
+				<span>The tasks succesfully update on the api when .put, but I'm having trouble making the cross-out styling persist. It's really the only thing, but it 830 and I've got to get ready for class</span>
+				</card>
 				<card class='card-body'>
 					<ol id="tasks"></ol>
 				</card>

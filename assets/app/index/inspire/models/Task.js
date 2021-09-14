@@ -3,7 +3,7 @@ export class Task {
 		this.description = taskData.description
 		this.name = taskData.description
 		this.id = taskData.id
-		this.complete = false
+		this.completed = taskData.completed
 	}
 	get TaskTemplate(){
 		return `<li id="${this.id}">${this.name}

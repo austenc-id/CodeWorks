@@ -38,9 +38,10 @@ class SandboxService {
 		let user = ProxyDash.user.shift()
 		let username = user.name
 		ProxyDash.user.unshift(user)
-		let task = ProxyDash.tasks.find(t => t.id === id)
-		task.complete = !task.complete
-		let res = await api.put(`${username}/todos/${id}`, {complete: task.complete})
+		var task = ProxyDash.tasks.find(t => t.id === id)
+		task.completed = !task.completed
+		console.log(ProxyDash.tasks)
+		let res = await api.put(`${username}/todos/${id}`, task)
 		console.log('put res:', res)
 	}
 	async deleteTask(id){

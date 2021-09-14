@@ -8,6 +8,7 @@ import { imgService } from "../services/ImageService.js";
 import { displayTime } from "./TimeCtlr.js";
 import { userService } from "../services/UserService.js";
 import { tasklistService } from "../services/TasklistService.js";
+import { ProxyDash } from "../dash-state.js";
 
 
 export function drawDashboard(dash){
@@ -26,7 +27,7 @@ export async function intializeUser(){
 	var data = await sandboxService.getTasks()
 	tasklistService.injectTasks(data)
 	let template = tasklistService.getTemplate()
-	document.getElementById('tasks').innerHTML = template
+	document.getElementById('tasks').innerHTML = template	
 }
 
 export class DashboardCtlr{
