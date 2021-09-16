@@ -1,4 +1,5 @@
-import { ArticRunner } from "./index/arctic-runner/drawArticRunner.js"
+
+import { ArticRunnerCtlr } from "./index/arctic-runner/ArcticRunnerCtlr.js"
 import { DashboardCtlr } from "./index/inspire/controllers/DashboardCtlr.js"
 import { JournalCore } from "./index/journal/core.js"
 import { DexCore } from "./index/pokedex/core.js"
@@ -10,7 +11,7 @@ class App {
 	utilities = new UtilityCore
 	journal = new JournalCore
 	thoughts = new DrawDogThoughts
-	arctic = new ArticRunner
+	arctic = new ArticRunnerCtlr
 	inspire = new DashboardCtlr
 	dex = new DexCore
 }
@@ -18,9 +19,9 @@ class App {
 
 
 
-console.log('hello from index.js')
+console.log( 'hello from index.js' )
 
-window["app"] = new App
+window[ "app" ] = new App
 
 
 
