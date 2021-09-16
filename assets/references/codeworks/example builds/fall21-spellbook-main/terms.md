@@ -1,0 +1,3 @@
+- user: the name saved in the url for the sandboxapi
+- SandboxSpell: the data that is stored for learned spells
+- SpellDetail: Generic 5e data (unable to edit)

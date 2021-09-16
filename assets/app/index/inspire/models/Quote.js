@@ -1,17 +1,15 @@
 export class Quote {
-	constructor(api){
+	constructor ( api ) {
 		this.quote = api.data.content
 		this.author = api.data.author
 	}
 
-	get Template (){
+	get Template () {
 		return /*html*/`
-							<card class="card quote-card">
 								<card class="card-body">
 									<p onmouseover="app.inspire.quote.revealAuthor()">${this.quote}</p>
 									<p class="visually-hidden" id="author">${this.author}</p>
 								</card>
-							</card>
 		`
 	}
 }
