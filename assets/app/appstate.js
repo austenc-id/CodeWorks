@@ -18,11 +18,11 @@ class AppState extends EventEmitter {
 		new Application(
 			{ index: 2, title: 'arctic runner', selection: 'app.arctic.drawPage()', topic: 'intro to javascript', desc: '', }
 		),
+		// new Application(
+		// 	{ index: 3, title: 'pokedex', selection: 'app.dex.dash.showDex()', topic: '', desc: '', }
+		// ),
 		new Application(
-			{ index: 3, title: 'pokedex', selection: 'app.dex.dash.showDex()', topic: '', desc: '', }
-		),
-		new Application(
-			{ index: 4, title: 'inspire', selection: 'app.inspire.image.reqDashboard()', topic: '', desc: '', }
+			{ index: 4, title: 'inspire', selection: 'app.inspire.image.reqDashboard()', topic: 'advancing with js and intro to api requests', desc: '', }
 		)
 	]
 	journal = [ new Journal() ]
