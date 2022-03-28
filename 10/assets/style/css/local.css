@@ -1,0 +1,51 @@
+body {
+  font-family: 'Consolas';
+  background-color: black;
+  color: white;
+  /*margin: 1rem;*/
+}
+.title-link {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+}
+.navbar-item {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+}
+.card {
+  color: white;
+  background-color: black;
+  margin: 1rem;
+  border: solid white;
+}
+.task-complete {
+  text-decoration: line-through;
+  color: grey;
+}
+.sidebar {
+  border-right: solid white;
+}
+.nav-link {
+  background-color: black;
+  color: white;
+}
+.text-question {
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.text-response {
+  font-size: 20px;
+  color: rgb(168, 167, 167);
+}
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  /*width: 100vw;*/
+}
+.arctic-gif {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}

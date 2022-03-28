@@ -1,0 +1,29 @@
+/* TODO add style classes */
+* {
+  color: white;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  /* border: solid rgba(255, 0, 0, 0.363) 1px; */
+}
+body {
+  background-color: #0174DF;
+}
+header {
+  background-color: #0174DF;
+}
+.title-bar {
+  text-align: center;
+  text-transform: uppercase;
+}
+main {
+  background-color: #676767;
+}
+.spacer {
+  min-height: 10vh;
+}
+.upgrade-card {
+  border: solid white 1px;
+  background-color: #61380B;
+}
+/* footer {
+  background-color: blueviolet;
+} */

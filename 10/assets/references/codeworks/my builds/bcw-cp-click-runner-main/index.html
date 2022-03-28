@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Runner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <row class="row title-bar">
+            <h1>Artic Runner</h1>
+        </row>
+    </header>
+    <main oncontextmenu="return false;" ondragstart="return false;" class="container-fluid">
+        <div class="row spacer"></div>
+        <row class="row align-items-center">
+            <div class="col-lg-2"></div>
+            <colm class="col-lg-3">
+                <figcaption class="text-center">Click Me</figcaption>
+                <img onclick="runner()" src="assets/images/running.gif" alt="husky" class="img-fluid">
+            </colm>
+            <colm class="col-lg-2">
+                <h3 id="e"></h3>
+                <h3 id="d"></h3>
+                <h3 id="t"></h3>
+                <h3 id="c"></h3>
+            </colm>
+        </row>
+        <div class="row spacer"></div>
+        <row class="row text-center">
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
+                <h4 id="pouch" onclick="purchaseUpgrade('pouch')">Pouch</h4>
+                <figcaption>increase token carrying capacity by:</figcaption>
+                <figcaption id="b1"></figcaption>
+                <figcaption>-----</figcaption>
+                <figcaption id="p1"></figcaption>
+                <figcaption id="u1"></figcaption>
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
+                <h4 id="snack" onclick="purchaseUpgrade('snack')">Snack</h4>
+                <figcaption>increases energy regeneration by:</figcaption>
+                <figcaption id="b2"></figcaption>
+                <figcaption>-----</figcaption>
+                <figcaption id="p2"></figcaption>
+                <figcaption id="u2"></figcaption>
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
+                <h4 id="endurance" onclick="purchaseUpgrade('endurance')">Endurance</h4>
+                <figcaption>reduces energy used per click by:</figcaption>
+                <figcaption id="b3"></figcaption>
+                <figcaption>-----</figcaption>
+                <figcaption id="p3"></figcaption>
+                <figcaption id="u3"></figcaption>
+            </colm>
+            <div class="col-lg"></div>
+            <colm class="col-lg upgrade-card">
+                <h4 id="friend" onclick="purchaseUpgrade('friend')">Friend</h4>
+                <figcaption>increases tokens per click by: </figcaption>
+                <figcaption id="b4"></figcaption>
+                <figcaption>-----</figcaption>
+                <figcaption id="p4"></figcaption>
+                <figcaption id="u4"></figcaption>
+            </colm>
+            <div class="col-lg"></div>
+        </row>
+    </main>
+    <footer class="container-fluid text-end">
+    </footer>
+    <script src="assets/scripts/load.js"></script>
+</body>
+
+</html>
