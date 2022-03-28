@@ -1,4 +1,8 @@
-# Boise CodeWorks Assignments
+# Boise CodeWorks 
+
+Coursework from my time at Boise CodeWorks Academy.
+
+## Assignments
 
 1.
 2.
