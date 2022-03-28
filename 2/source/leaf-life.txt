@@ -1,0 +1,16 @@
+Assignment instructions
+40 minutes to completeResource available4 student solutions
+Take some time to download the mock and paint grid lines to cut up the containers, rows, and columns. Use Emmett abbreviations in your mock as a general guideline for your HTML elements. Taking the time to draw out on top of the mock will speed up the coding process.
+
+
+
+Be sure to do this prior to starting with any coding. In the next lesson we will use the provided solution to actually build out the site in HTML and CSS
+
+Questions for this assignment
+How many rows do you think there are in this mock?
+
+How many containers do you think this site uses?
+
+How can you use the bootstrap grid system to keep slight margins to the left and right in a .container-fluid and still use two .col-6?
+
+Upload your image to get feedback on your decisions for cutting up the site.
